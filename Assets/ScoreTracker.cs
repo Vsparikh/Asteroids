@@ -13,7 +13,7 @@ public class ScoreTracker : MonoBehaviour
 
     private void Start()
     {
-        ScoreDisplay.text = Score.ToString();
+        ScoreDisplay.text = "Score: " + Score.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
